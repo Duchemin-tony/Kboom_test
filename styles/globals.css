@@ -1,0 +1,45 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/** GLOBAL **/
+body {
+    background-color: #262c3a;
+}
+
+/** HEADER **/
+header {
+    border-bottom: 1px solid #587481;
+}
+
+.icon-color {
+    color: #2ce5a7;
+    width: 24px;
+    height: 24px;
+}
+
+/** NAV **/
+nav {
+    border-right: 1px solid #587481;
+}
+.border-rounded {
+    position: relative;
+    border-radius: 50%;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    left: -20%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 20px;
+    background-color: #587481;
+    border-radius: 0 8px 8px 0;
+}
+
+/** Sidebar **/
+aside {
+    border-right: 1px solid #587481;
+}
