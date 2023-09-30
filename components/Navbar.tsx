@@ -8,7 +8,7 @@ export function Navbar() {
         { name: "Logo_KBOOM", path: "team-kboom" },
         { name: "Logo_TeamGO", path: "team-go" },
         { name: "Logo_Yo", path: "team-yo" },
-        { name: "Logo_Versus", path: "team-versus" },
+        { name: "Logo_versus", path: "team-versus" },
         { name: "Logo_Tron", path: "team-tron" },
     ];
 
